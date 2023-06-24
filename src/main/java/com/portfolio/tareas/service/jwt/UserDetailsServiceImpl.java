@@ -1,10 +1,12 @@
-package com.portfolio.tareas.service;
+package com.portfolio.tareas.service.jwt;
 
 import com.portfolio.tareas.entities.User;
 import com.portfolio.tareas.repository.UserRepository;
+import com.portfolio.tareas.security.UserDetailsImpl;
 import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 

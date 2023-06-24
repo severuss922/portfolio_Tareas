@@ -1,4 +1,4 @@
-package com.portfolio.tareas.service;
+package com.portfolio.tareas.security;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.portfolio.tareas.entities.User;

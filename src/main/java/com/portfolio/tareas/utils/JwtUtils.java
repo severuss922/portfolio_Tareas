@@ -1,6 +1,6 @@
 package com.portfolio.tareas.utils;
 
-import com.portfolio.tareas.service.UserDetailsImpl;
+import com.portfolio.tareas.security.UserDetailsImpl;
 import io.jsonwebtoken.*;
 import io.jsonwebtoken.io.Decoders;
 import io.jsonwebtoken.security.Keys;
