@@ -1,8 +1,8 @@
 package com.portfolio.tareas.controller;
 
-import com.portfolio.tareas.dto.LoginRequestDto;
-import com.portfolio.tareas.dto.MessageResponseDto;
-import com.portfolio.tareas.dto.SignUpRequestDto;
+import com.portfolio.tareas.dto.request.LoginRequestDto;
+import com.portfolio.tareas.dto.response.MessageResponseDto;
+import com.portfolio.tareas.dto.jwt.SignUpRequestDto;
 import com.portfolio.tareas.service.jwt.AuthServiceImpl;
 import com.portfolio.tareas.utils.JwtUtils;
 import jakarta.validation.Valid;
@@ -10,16 +10,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.ResponseCookie;
 import org.springframework.http.ResponseEntity;
-import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
-import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/api/auth")

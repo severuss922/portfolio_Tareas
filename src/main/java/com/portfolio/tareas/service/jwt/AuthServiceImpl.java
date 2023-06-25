@@ -1,9 +1,9 @@
 package com.portfolio.tareas.service.jwt;
 
-import com.portfolio.tareas.dto.LoginRequestDto;
-import com.portfolio.tareas.dto.MessageResponseDto;
-import com.portfolio.tareas.dto.SignUpRequestDto;
-import com.portfolio.tareas.dto.UserInfoResponseDto;
+import com.portfolio.tareas.dto.request.LoginRequestDto;
+import com.portfolio.tareas.dto.response.MessageResponseDto;
+import com.portfolio.tareas.dto.jwt.SignUpRequestDto;
+import com.portfolio.tareas.dto.jwt.UserInfoResponseDto;
 import com.portfolio.tareas.entities.ERole;
 import com.portfolio.tareas.entities.Role;
 import com.portfolio.tareas.entities.User;

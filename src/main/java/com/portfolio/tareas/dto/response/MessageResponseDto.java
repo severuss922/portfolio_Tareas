@@ -1,4 +1,4 @@
-package com.portfolio.tareas.dto;
+package com.portfolio.tareas.dto.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
