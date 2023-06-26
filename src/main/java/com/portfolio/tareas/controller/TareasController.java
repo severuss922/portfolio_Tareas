@@ -1,8 +1,7 @@
 package com.portfolio.tareas.controller;
 
+
 import com.portfolio.tareas.dto.request.TareasRequestDto;
-import com.portfolio.tareas.dto.request.UnaTareaDto;
-import com.portfolio.tareas.entities.Tareas;
 import com.portfolio.tareas.service.TareasService;
 import com.portfolio.tareas.service.TareasServiceImpl;
 import jakarta.validation.Valid;
@@ -12,7 +11,8 @@ import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.List;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/api/tareas")
