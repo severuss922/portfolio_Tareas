@@ -40,4 +40,6 @@ public class Tareas {
     private LocalDate fechaVencimiento;
 
     private boolean terminada;
+
+    private String username;
 }
